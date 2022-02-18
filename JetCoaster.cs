@@ -8,7 +8,7 @@ namespace jetcoster
 {
     public class JetCoaster
     {
-        public static int ride
+        public static int Ride
             (int k, int[] g, int r)
         {
             int[] vs = new int[g.Length];

@@ -8,7 +8,7 @@ namespace jetcoster
 {
     public class Kuriage
     {
-        public static int kuriage10(int j)
+        public static int Kuriage10(int j)
         {
             double i, k, p;
             int q;
