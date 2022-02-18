@@ -8,14 +8,13 @@ namespace jetcoster
 {
     public class JetCoaster
     {
-        public static int Ride
+        public static int ride
             (int k, int[] g, int r)
         {
             int[] vs = new int[g.Length];
             Array.Copy(g, vs, g.Length);
 
             int add = 0;
-            int space = 0;
             int limit = k;
 
             for (int w = 0; w < r; w++)
@@ -39,7 +38,7 @@ namespace jetcoster
 
                 for (int j = 0; j < count; j++)
                 {
-                    space = g[0];
+                    int space = g[0];
                     for (int q = 0; q < g.Length; q++)
                     {
                         if (q == g.Length - 1)
